@@ -1,0 +1,1 @@
+cmd_/home/achala/MTP/Trace_spy_and_victim/mytracer.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/achala/MTP/Trace_spy_and_victim/mytracer.ko /home/achala/MTP/Trace_spy_and_victim/mytracer.o /home/achala/MTP/Trace_spy_and_victim/mytracer.mod.o

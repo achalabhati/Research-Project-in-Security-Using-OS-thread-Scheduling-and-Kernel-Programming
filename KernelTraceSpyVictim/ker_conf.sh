@@ -1,0 +1,8 @@
+make -j 5
+sudo make modules
+sudo make modules_install
+sudo make install
+cd /boot
+sudo mkinitramfs -o initrd.img-4.8.0 4.8.0
+sudo update-grub
+sudo reboot
